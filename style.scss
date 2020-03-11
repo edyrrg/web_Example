@@ -1,0 +1,49 @@
+* {
+    font-family: 'Oxanium', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    font-size: 16px;
+}
+.header{
+    outline: 1px solid gold;
+    height: 3rem;
+}
+.menu {
+    display: flex;
+}
+.menu__item{
+    list-style: none;
+    flex: 1;
+    outline:1px solid cyan;
+    justify-content: center;
+    text-align: center;
+    line-height: 3rem;
+    transition: flex .5s;
+}
+.menu__item:hover{
+    flex: 4;
+}
+.container{
+    outline: 1px solid salmon;
+    display: flex;
+    height: inherit;
+}
+.container__content{
+    outline: 1px solid blue;
+    flex: 1;
+}
+.container__aside{
+    outline: 1px solid lime;
+    flex: 0 0 25%;
+}
+.footer{
+    outline: 1px solid green;
+    height: 6rem;
+    margin-top: auto;
+}
