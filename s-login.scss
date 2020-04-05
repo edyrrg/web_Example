@@ -1,0 +1,21 @@
+$colorCeleste: #c2f0fc;
+$blanco: white;
+$colorRosado: #ffb0cd;
+$fuentePrincipal: 'Pacifico', cursive;
+*{
+    margin: 0;
+    box-sizing: none;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorCeleste;
+}
+.header__title{
+    font-family: $fuentePrincipal;
+    color: $colorRosado;
+    font-size: 60px;
+}
