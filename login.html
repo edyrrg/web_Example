@@ -10,6 +10,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
     </style>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <!-- page title -->
     <title>Iniciar Sesión</title>
 </head>
@@ -18,11 +19,15 @@
     <header class="header">
         <h1 class="header__title">Queen's Shoes</h1>
     </header>
-    <main class="main">
-        <h1 class="main__title">Iniciar Sesión</h1>
-        <input type="text">
-        <input type="text">
-        <button></button>
+    <main class="login">
+        <div class="login__container">
+            <h1 class="login__container--title">Iniciar Sesión</h1>
+            <form class="login__container--form" action="">
+                <input class="input" type="text" autocomplete="username" placeholder="Nombre de Usuario">
+                <input class="input" type="password" placeholder="Contraseña">
+                <button class="button">Iniciar Sesión</button>
+            </form>
+        </div>
     </main>
     <footer class="footer">
         footer

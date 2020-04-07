@@ -1,3 +1,5 @@
+@use 'styles-component-Boxs';
+
 $colorCeleste: #c2f0fc;
 $blanco: white;
 $colorRosado: #ffb0cd;
@@ -19,3 +21,38 @@ $fuentePrincipal: 'Pacifico', cursive;
     color: $colorRosado;
     font-size: 60px;
 }
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: $fuentePrincipal;
+    background-color: $colorRosado;
+    min-height: calc(100vh - 200px);
+   
+}
+.login__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 68px 40px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20%;
+}
+.login__container--title{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.login__container--form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+}
+
+
