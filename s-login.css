@@ -5,11 +5,11 @@
   border-right: 0px;
   border-bottom: 2px solid black;
   font-family: "Muli", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 20px;
   padding: 0px 20px;
   outline: none;
-  height: 50px;
+  height: 55px;
   color: black;
 }
 
@@ -72,8 +72,8 @@ body {
   justify-content: space-around;
   flex-direction: column;
   padding: 60px 68px 40px;
-  width: 500px;
-  height: 550px;
+  width: 450px;
+  height: 475px;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10%;
 }
